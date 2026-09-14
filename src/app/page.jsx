@@ -7,6 +7,7 @@ import OurPeople from "@/components/homepage/OurPeople";
 import OurBrands from "@/components/homepage/OurBrands";
 import News from "@/components/homepage/NewsRoom";
 import Milestones from "@/components/homepage/Milestones";
+import OurMission from "@/components/homepage/OurMission";
 
 export default function Homepage() {
   return (
@@ -15,7 +16,10 @@ export default function Homepage() {
         <Navigation />
         <Hero src="next.svg" alt="sample" />
         <OurCompany />
+        <OurMission />
+        <OurBrands />
         <OurPeople />
+        <Milestones />
         <Footer />
       </main>
     </div>
