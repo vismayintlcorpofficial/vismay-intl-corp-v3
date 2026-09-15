@@ -6,7 +6,7 @@ import OurBrands from "../homepage/OurBrands";
 export default function Header() {
    return (
       <nav className="w-full">
-         <div className="flex justify-end gap-27 bg-[#06529B] py-1 px-35">
+         <div className="flex justify-end gap-27 bg-[#06529B] pb-1 pt-3 px-35">
             <Link className="text-lg font-semibold text-white" href="OurBrands">
                Our Brands
             </Link>
