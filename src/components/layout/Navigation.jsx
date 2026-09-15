@@ -5,7 +5,7 @@ import OurBrands from "../homepage/OurBrands";
 
 export default function Header() {
    return (
-      <nav className="w-full mb-2">
+      <nav className="w-full">
          <div className="flex justify-end gap-27 bg-[#06529B] py-1 px-35">
             <Link className="text-lg font-semibold text-white" href="OurBrands">
                Our Brands
@@ -14,7 +14,7 @@ export default function Header() {
                Contact Us
             </Link>
          </div>
-         <div className="flex col justify-between bg-white px-35 py-1 items-center">
+         <div className="flex col justify-between bg-white px-35 py-1 pb-2 items-center">
             <Image
                src="vismayLogo.svg"
                alt="Vismay Logo"
