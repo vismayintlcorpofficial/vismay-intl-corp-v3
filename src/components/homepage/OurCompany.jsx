@@ -5,7 +5,7 @@ export default function OurCompany() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
             consequat libero mi,
          </p>
-         <p className="w-1/3 text-center text-black py-7">
+         <p className="w-1/3 text-center text-black pt-7">
             At Vismay International Corporation, we aspire to be the foremost
             name in innovative lifestyle technology—bringing cutting-edge
             gadgets, entertainment, and digital experiences closer to every
