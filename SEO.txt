@@ -1,0 +1,46 @@
+
+
+export const metadata = {
+  title: {
+    default: "Your Company",
+    template: "%s | Your Company",
+  },
+  description:
+    "Your company description goes here.",
+  keywords: [
+    "your company",
+    "your service",
+    "your industry",
+  ],
+  authors: [{ name: "Your Company" }],
+  creator: "Your Company",
+
+  openGraph: {
+    title: "Your Company",
+    description:
+      "Your company description goes here.",
+    type: "website",
+    locale: "en_US",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
+export const metadata = {
+  title: "Home",
+  description:
+    "Welcome to Your Company. Discover our brands, company, missions, and people.",
+};
+
+
+
+export const metadata = {
+  title: "About Us",
+  description:
+    "Learn more about our company, history, and values.",
+};
+
+
