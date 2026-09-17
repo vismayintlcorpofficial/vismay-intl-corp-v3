@@ -20,7 +20,7 @@ export default function OurPeople() {
          </div>
          {/*  */}
          <div className="py-10 bg-white sm:relative justify-center items-center">
-            <div className="lg:w-1/3 w-1/2 bg-white p-.05 rounded-3xl absolute right-100/202 lg:top-1/4">
+            <div className="lg:w-1/3 w-1/2 bg-white p-0.5 rounded-3xl absolute right-100/202 lg:top-1/4">
                <p className="bg-[#06529B] text-xs lg:text-base/5 p-1 md:py-10 md:px-15 rounded-3xl font-bold">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
