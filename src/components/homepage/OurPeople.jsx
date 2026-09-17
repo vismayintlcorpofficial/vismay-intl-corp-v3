@@ -13,14 +13,14 @@ export default function OurPeople() {
                height={0}
                className="w-full h-full"
             />
-            <p className="absolute left-[110px] md:left-[220px] top-2/3 text-xl md:text-6xl w-1/2 font-bold">
+            <p className="absolute left-27.5 md:left-55 top-2/3 text-xl md:text-6xl w-1/2 font-bold">
                Lorem ipsum dolor sit amet, adipiscing elit. Phasellus con libero
                mi, at tincidunt odio mo
             </p>
          </div>
          {/*  */}
          <div className="py-10 bg-white sm:relative justify-center items-center">
-            <div className="lg:w-1/3 w-1/2 bg-white p-[2px] rounded-3xl absolute right-100/202 lg:top-1/4">
+            <div className="lg:w-1/3 w-1/2 bg-white p-.05 rounded-3xl absolute right-100/202 lg:top-1/4">
                <p className="bg-[#06529B] text-xs lg:text-base/5 p-1 md:py-10 md:px-15 rounded-3xl font-bold">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -38,7 +38,7 @@ export default function OurPeople() {
                </p>
             </div>
             <Image
-               className="ml-[50%] h-auto w-[300px] md:w-[400px] lg:w-[600px]"
+               className="ml-[50%] h-auto w-75 md:w-100 lg:w-150"
                src="/images/ourPeople/ourPeople2.svg"
                alt="Vismay Employee"
                width={600}
