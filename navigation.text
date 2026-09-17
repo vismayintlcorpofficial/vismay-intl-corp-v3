@@ -1,0 +1,68 @@
+my-company-website/
+│
+├── public/
+│   ├── images/
+│   │   ├── brands/
+│   │   ├── company/
+│   │   ├── people/
+│   │   └── missions/
+│   ├── icons/
+│   └── fonts/
+│
+├── src/
+│   │
+│   ├── app/
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   ├── globals.css
+│   │   │
+│   │   ├── about/
+│   │   │   └── page.tsx
+│   │   │
+│   │   ├── brands/
+│   │   │   └── page.tsx
+│   │   │
+│   │   ├── missions/
+│   │   │   └── page.tsx
+│   │   │
+│   │   └── people/
+│   │       └── page.tsx
+│   │
+│   ├── components/
+│   │   │
+│   │   ├── layout/
+│   │   │   ├── Navbar.tsx
+│   │   │   ├── Footer.tsx
+│   │   │   └── Header.tsx
+│   │   │
+│   │   ├── homepage/
+│   │   │   ├── Hero.tsx
+│   │   │   ├── OurBrands.tsx
+│   │   │   ├── OurCompany.tsx
+│   │   │   ├── OurMissions.tsx
+│   │   │   └── OurPeople.tsx
+│   │   │
+│   │   └── ui/
+│   │       ├── Button.tsx
+│   │       ├── Container.tsx
+│   │       └── SectionTitle.tsx
+│   │
+│   ├── data/
+│   │   ├── brands.ts
+│   │   ├── people.ts
+│   │   └── missions.ts
+│   │
+│   ├── lib/
+│   │   ├── utils.ts
+│   │   └── api.ts
+│   │
+│   └── types/
+│       ├── brand.ts
+│       ├── person.ts
+│       └── mission.ts
+│
+├── .env.local
+├── next.config.ts
+├── package.json
+├── tsconfig.json
+└── eslint.config.mjs

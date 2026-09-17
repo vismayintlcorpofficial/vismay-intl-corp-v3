@@ -1,5 +1,3 @@
-import Footer from "@/components/layout/Footer";
-import Navigation from "@/components/layout/Navigation";
 import Hero from "@/components/layout/Hero";
 import Image from "next/image";
 import OurCompany from "@/components/homepage/OurCompany";
@@ -13,14 +11,12 @@ export default function Homepage() {
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="flex flex-1 w-full flex-col items-center bg-white dark:bg-black sm:items-start">
-        <Navigation />
         <Hero src="next.svg" alt="sample" />
         <OurCompany />
         <OurMission />
         <OurBrands />
         <OurPeople />
         <Milestones />
-        <Footer />
       </main>
     </div>
   );
