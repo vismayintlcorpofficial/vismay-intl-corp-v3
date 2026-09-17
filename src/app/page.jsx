@@ -17,6 +17,7 @@ export default function Homepage() {
         <OurBrands />
         <OurPeople />
         <Milestones />
+        <News />
       </main>
     </div>
   );
