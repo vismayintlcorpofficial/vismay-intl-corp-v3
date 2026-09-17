@@ -10,7 +10,7 @@ import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${montserrat.className}  h-full antialiased`}>
+    <html lang="en" className={`${montserrat.variable}  h-full antialiased`}>
       <body className="min-h-full flex flex-col">
         <Navigation />
         {children}
