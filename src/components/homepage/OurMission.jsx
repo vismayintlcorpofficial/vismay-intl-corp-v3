@@ -22,7 +22,7 @@ export default function OurMission() {
 
    return (
       <section className="w-full pb-20 bg-white justify-center items-center flex flex-col">
-         <div className="overflow-hidden scrollbar-hide marquee rounded-xl border">
+         <div className="overflow-hidden scrollbar-hide marquee rounded-xl">
             <div className="marquee_inner gap-3 scrollbar-hide">
                {images.map((image, index) => (
                   <Image
