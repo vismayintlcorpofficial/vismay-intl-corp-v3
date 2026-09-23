@@ -13,7 +13,7 @@ export default function OurPeople() {
                height={0}
                className="w-full h-full"
             />
-            <p className="absolute sm:left-10 lg:left-100 top-2/3 text-lg sm:text-xl md:text-4xl xl:text-6xl w-full px-10 md:w-3/4 lg:w-1/2 font-bold">
+            <p className="absolute sm:left-10 lg:left-100 2xl:left-150 top-2/3 text-lg sm:text-xl md:text-4xl xl:text-6xl w-full px-10 md:w-3/4 lg:w-2/5 font-bold">
                Lorem ipsum dolor sit amet, adipiscing elit. Phasellus con libero
                mi, at tincidunt odio mo
             </p>
