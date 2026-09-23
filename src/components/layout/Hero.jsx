@@ -9,21 +9,21 @@ const slides = [
     title: "Vismay International Corp.",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique temporibus tempore nobis laboriosam hic blanditiis quam adipisci quis magni minus fuga optio nemo obcaecati aliquam sed, dolor quaerat et ipsam?",
-    image: "/images/hero/homeBanner.webp",
+    image: "/videos/hero/MAIN_BANNER_1.webm",
     link: "#",
   },
   {
     title: "Vismay International",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique temporibus tempore nobis laboriosam hic blanditiis quam adipisci quis magni minus fuga optio nemo obcaecati aliquam sed, dolor quaerat et ipsam?",
-    image: "/images/hero/homeBanner.webp",
+    image: "/videos/hero/MAIN_BANNER_2.webm",
     link: "#",
   },
   {
     title: "Vismay",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique temporibus tempore nobis laboriosam hic blanditiis quam adipisci quis magni minus fuga optio nemo obcaecati aliquam sed, dolor quaerat et ipsam?",
-    image: "/images/hero/homeBanner.webp",
+    image: "/videos/hero/MAIN_BANNER_3.webm",
     link: "#",
   },
 ];
@@ -174,10 +174,12 @@ export default function HeroBanner() {
             href={currentSlide.link}
             className="absolute inset-0 z-10 block"
           >
-            <motion.img
+            <motion.video
               key={active}
-              src={currentSlide.image}
-              alt={currentSlide.title}
+              autoPlay
+              muted
+              loop
+              playsInline
               className="absolute inset-0 h-full w-full object-cover"
               initial={{
                 opacity: 0,
@@ -195,7 +197,10 @@ export default function HeroBanner() {
                 duration: 0.8,
                 ease: "easeInOut",
               }}
-            />
+            >
+              <source src={currentSlide.image} type="video/webm" />
+            </motion.video>
+
             <motion.div
               className="absolute top-60 left-40 w-130"
               initial={{ opacity: 0, x: 100 }}
