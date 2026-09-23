@@ -5,7 +5,7 @@ import DPOLogo from "../../../public/icons/dpo-dps.png";
 import Link from "next/link";
 const Footer = () => {
   return (
-    <footer className="w-full h-140 bg-[#06529B] pt-16 bg-[url('/images/footer/footerBG.png')] bg-center bg-no-repeat">
+    <footer className="w-full h-140 bg-[#06529B] pt-16 bg-[url('/images/footer/footerBG.png')] bg-center bg-no-repeat text-white">
       <div className="max-w-screen-2xl mx-auto">
         <div className="flex justify-end gap-4 max-w-screen-xl">
           <Link href="https://www.facebook.com/vismayinternationalcorp" replace>

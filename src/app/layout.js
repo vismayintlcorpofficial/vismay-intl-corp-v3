@@ -11,7 +11,7 @@ import Footer from "@/components/layout/Footer";
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${montserrat.variable}  h-full antialiased`}>
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col selection:bg-[#ECF0F8] selection:text-[#06529B]">
         <Navigation />
         {children}
         <Footer />

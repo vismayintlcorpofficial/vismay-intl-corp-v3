@@ -4,7 +4,7 @@ import PKAudioLogo from "../../../public/images/brands/pk_audio.webp";
 import Link from "next/link";
 export default function OurBrands() {
   return (
-    <section className="w-full h-134.5 flex flex-col justify-center bg-[#06529B]">
+    <section className="w-full h-134.5 flex flex-col justify-center bg-[#06529B] text-white">
       <div className="flex justify-center flex-col items-center gap-12">
         <h3 className="text-4xl font-bold">Explore our brands</h3>
         <div className="flex justify-center">

@@ -3,7 +3,7 @@ import { Montserrat, Geist, Geist_Mono } from "next/font/google";
 export const montserrat = Montserrat({
   subsets: ["latin"],
   display: "swap",
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["100", "200", "300", "400", "500", "600", "700"],
   variable: "--font-montserrat",
 });
 
