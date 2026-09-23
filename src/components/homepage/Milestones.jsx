@@ -7,7 +7,7 @@ import stores from "../../../public/images/milestones/stores_icon.webp";
 
 const Milestones = () => {
   return (
-    <section className="h-125 w-full flex flex-col justify-center bg-[#06529B]">
+    <section className="h-125 w-full flex flex-col justify-center bg-[#06529B] text-white">
       <div className="flex gap-12 flex-col ">
         <div className="max-w-screen-xl mx-auto w-full">
           <h3 className="text-4xl">Vismay in the Philippines</h3>
