@@ -13,15 +13,15 @@ export default function OurPeople() {
                height={0}
                className="w-full h-full"
             />
-            <p className="absolute sm:left-10 lg:left-100 2xl:left-150 top-2/3 text-lg sm:text-xl md:text-4xl xl:text-7xl w-full px-10 md:w-3/4 lg:w-2/5 font-bold">
+            <p className="absolute sm:left-10 lg:left-50 top-2/3 text-lg sm:text-xl md:text-4xl xl:text-6xl w-full px-10 md:w-3/4 lg:w-1/2 font-bold">
                Lorem ipsum dolor sit amet, adipiscing elit. Phasellus con libero
                mi, at tincidunt odio mo
             </p>
          </div>
          {/*  */}
          <div className="py-20 px-10 flex flex-col sm:relative justify-center items-center">
-            <div className="md:w-10/20 2xl:w-10/28 w-full md:px-1 bg-white dark:bg-black p-[2px] order-1 rounded-3xl md:absolute mt-[-30px] md:mt-0 md:right-100/220 xl:right-100/240 2xl:right-100/235 md:top-1/4">
-               <p className="bg-[#06529B] 2xl:text-xl/7 xl:text-lg p-5 lg:py-10 xl:px-15 rounded-3xl font-bold">
+            <div className="md:w-10/20 2xl:w-10/28 w-full md:px-1 bg-white dark:bg-black p-[2px] order-1 rounded-3xl md:absolute mt-[-30px] md:mt-0 md:right-100/220 xl:right-100/215 md:top-1/4">
+               <p className="bg-[#06529B] 2xl:text-base/5 xl:text-lg p-5 lg:py-10 xl:px-15 rounded-3xl font-bold">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   <br />
@@ -38,7 +38,7 @@ export default function OurPeople() {
                </p>
             </div>
             <Image
-               className="md:ml-[50%] 2xl:ml-[35%] lg h-auto 2xl:w-157.75 lg:w-100 order-0"
+               className="md:ml-[50%] 2xl:ml-[35%] lg h-auto 2xl:w-140.75 lg:w-100 order-0"
                src="/images/ourPeople/ourPeople2.svg"
                alt="Vismay Employee"
                width={631}
