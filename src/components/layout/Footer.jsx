@@ -24,9 +24,11 @@ const Footer = () => {
               Vismay International Corp.
             </h3>
             <p className="text-base w-84.25 font-light">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              consequat libero mi, at tincidunt odio mollis quis. Duis diam
-              nisi, pellentesque quis imperdiet nec, accumsan.
+              is committed to delivering quality products, innovative solutions,
+              and exceptional experiences through our diverse portfolio of
+              brands. We strive to build lasting relationships with our
+              customers, partners, and communities through excellence and
+              integrity.
             </p>
           </div>
           <div className="flex-1 space-y-1.5  text-xl">
