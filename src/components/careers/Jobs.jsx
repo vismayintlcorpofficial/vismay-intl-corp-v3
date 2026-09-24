@@ -30,15 +30,15 @@ export default function Jobs() {
                <li>Accounting Supervisor</li>
                <li> Key Accounts_Manager</li>
             </ul>
-            <div className="flex lg:mt-10 lg:m-5 gap-2 xl:gap-5">
-               <p className="md:px-5 lg:px-8 2xl:px-14 py-1.5 border rounded-4xl">
+            <div className="flex lg:mt-10 m-3 xl:m-5 gap-2 xl:gap-5">
+               <p className="px-3 lg:px-8 2xl:px-14 py-1.5 border rounded-4xl">
                   Jobstreet
                </p>
-               <p className="md:px-5 lg:px-8 2xl:px-14 py-1.5 border rounded-4xl">
-                  Jobstreet
+               <p className="px-3 lg:px-8 2xl:px-14 py-1.5 border rounded-4xl">
+                  Indeed
                </p>
-               <p className="md:px-5 lg:px-8 2xl:px-14 py-1.5 border rounded-4xl">
-                  Jobstreet
+               <p className="px-3 lg:px-8 2xl:px-14 py-1.5 border rounded-4xl">
+                  Facebook
                </p>
             </div>
          </div>
