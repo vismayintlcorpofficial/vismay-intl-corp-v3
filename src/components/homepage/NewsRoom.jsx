@@ -23,9 +23,12 @@ export default function NewsRoom() {
               PLATINUM KARAOKE STORE OPENING
             </h2>
             <p className="text-xs font-thin my-8 line-clamp-4 h-15 ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              consequat libero mi, at tincidunt odio mollis quis. Duis diam
-              nisi, pellentesque quis imperdiet nec, accumsan.
+              Vismay International Corporation proudly celebrates the opening of
+              a new Platinum Karaoke store, bringing premium karaoke
+              entertainment closer to music lovers. This special occasion marks
+              another milestone in our commitment to delivering quality
+              products, innovative entertainment solutions, and unforgettable
+              experiences to our customers.
             </p>
             <Link
               href="#"
@@ -47,12 +50,11 @@ export default function NewsRoom() {
               PLATINUM KARAOKE SPORT FEST
             </h2>
             <p className="text-xs font-thin my-8 line-clamp-4 h-15  ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              consequat libero mi, at tincidunt odio mollis quis. Duis diam
-              nisi, pellentesque quis imperdiet nec, accumsan. Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit. Phasellus consequat libero
-              mi, at tincidunt odio mollis quis. Duis diam nisi, pellentesque
-              quis imperdiet nec, accumsan.
+              Teamwork, camaraderie, and sportsmanship take center stage at the
+              Platinum Karaoke Sport Fest. Vismay International Corporation
+              brings employees and teams together through exciting sporting
+              activities, fostering stronger connections, healthy competition,
+              and a shared spirit of unity beyond the workplace.
             </p>
             <Link
               href="#"
@@ -74,9 +76,11 @@ export default function NewsRoom() {
               PLATINUM KARAOKE CELEBRATE 25 YEARS
             </h2>
             <p className="text-xs font-thin my-8 line-clamp-4 h-15 ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              consequat libero mi, at tincidunt odio mollis quis. Duis diam
-              nisi, pellentesque quis imperdiet nec, accumsan.
+              Celebrating 25 years of passion, innovation, and entertainment,
+              Platinum Karaoke reflects on a remarkable journey of connecting
+              people through music. Vismay International Corporation honors this
+              milestone with gratitude to our customers, partners, and dedicated
+              team members who have been part of our growth and success.
             </p>
             <Link
               href="#"
@@ -98,9 +102,11 @@ export default function NewsRoom() {
               PLATINUM KARAOKE CONCERT
             </h2>
             <p className="text-xs font-thin my-8 line-clamp-4 h-15 ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              consequat libero mi, at tincidunt odio mollis quis. Duis diam
-              nisi, pellentesque quis imperdiet nec, accumsan.
+              Experience the energy of music and entertainment at the Platinum
+              Karaoke Concert. Vismay International Corporation celebrates the
+              joy of live performances and shared musical experiences, bringing
+              together music enthusiasts and supporters for an unforgettable
+              celebration of sound, talent, and entertainment.
             </p>
             <Link
               href="#"
