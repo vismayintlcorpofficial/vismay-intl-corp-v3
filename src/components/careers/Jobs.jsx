@@ -24,7 +24,7 @@ export default function Jobs() {
                <li>Warehouse and Logistic Manager </li>
                <li>IT Manager</li>
                <li>FP&A Manager</li>
-               <li>Admin Officer</li>
+               <li>Admin Officer </li>
                <li>Livestreamer </li>
                <li>General Manager (Paragon)</li>
                <li>Accounting Supervisor</li>
