@@ -4,19 +4,20 @@ export default function Jobs() {
    return (
       <section className="relative text-white">
          {/* Text */}
-         <div className="relative z-10 bg-[#06529B] h-250 w-1/2 rounded-tr-[150px] p-3 md:px-15 xl:px-30 justify-center flex flex-col">
+         <div className="relative z-10 bg-[#06529B] h-270 w-1/2 rounded-tr-[100px] p-3 md:px-15 xl:px-30 justify-center flex flex-col">
             <h2 className="md:text-6xl">Careers with purpose</h2>
-            <p className="text-xl">
+            <p className="text-2xl">
                <br />
                At Vismay, what you do matters. Whether you’re just starting out
-               or ready for a new challenge, your work can shape the world – and
-               your own future – all at once.
+               or ready for a new challenge, your work can shape the world and
+               your own future all at once.
                <br />
                <br />
-               Currently we have job opportunities below:
+               Currently we have job opportunities below:
                <br />
             </p>
-            <ul className="list-disc pl-3 md:pl-5 xl:pl-10 text-lg">
+            <ul className="list-disc pl-3 md:pl-5 xl:pl-10 text-xl">
+               <br />
                <li>Product and Sales Training Officer</li>
                <li>Property Leasing Officer (Airbnb)</li>
                <li>Project and Property Officer</li>
@@ -47,7 +48,7 @@ export default function Jobs() {
             alt=""
             width={100}
             height={100}
-            className="z-1 absolute top-0 right-0 w-5/9 h-250 object-cover"
+            className="z-1 absolute top-0 right-0 w-5/9 h-270 object-cover"
          />
       </section>
    );
