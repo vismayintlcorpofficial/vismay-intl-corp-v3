@@ -1,12 +1,11 @@
-import { section } from "motion/react-client";
 import Image from "next/image";
 
-export function HeroBanner() {
+export default function HeroImage({ src }) {
    return (
       <section className=" bg-[#06529B] pb-10 md:pb-20">
          <div className="w-full h-auto">
             <Image
-               src="/images/careers/careers.svg"
+               src={src}
                alt="Careers Banner"
                width={0}
                height={0}
