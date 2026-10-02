@@ -1,10 +1,10 @@
-import { HeroBanner } from "@/components/careers/HeroBanner";
+import HeroImage from "@/components/layout/HeroImage";
 import Jobs from "@/components/careers/Jobs";
 
 export default function Careers() {
    return (
       <div>
-         <HeroBanner />
+         <HeroImage src={"/images/careers/careers.svg"} />
          <Jobs />
       </div>
    );
