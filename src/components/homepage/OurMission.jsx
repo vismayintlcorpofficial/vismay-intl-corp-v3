@@ -29,8 +29,9 @@ export default function OurMission() {
                      key={index}
                      src={image}
                      alt={`Mission ${index + 1}`}
-                     width={415}
-                     height={415}
+                     width={0}
+                     height={0}
+                     className="w-50 h-50 md:w-70 md:h-70 xl:w-103 xl:h-103"
                   />
                ))}
                {images.map((image, index) => (
@@ -38,8 +39,9 @@ export default function OurMission() {
                      key={index}
                      src={image}
                      alt={`Mission ${index + 1}`}
-                     width={415}
-                     height={415}
+                     width={0}
+                     height={0}
+                     className="w-50 h-50 md:w-70 md:h-70 xl:w-103 xl:h-103"
                   />
                ))}
             </div>
