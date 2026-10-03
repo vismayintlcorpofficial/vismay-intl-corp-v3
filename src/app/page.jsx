@@ -7,18 +7,23 @@ import News from "@/components/homepage/NewsRoom";
 import Milestones from "@/components/homepage/Milestones";
 import OurMission from "@/components/homepage/OurMission";
 
+export const metadata = {
+   title: "Vismay International Corporation",
+   description: "Vismay International Corporation Corporate Website",
+};
+
 export default function Homepage() {
-  return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full flex-col items-center bg-white dark:bg-black sm:items-start">
-        <Hero src="next.svg" alt="sample" />
-        <OurCompany />
-        <OurMission />
-        <OurBrands />
-        <OurPeople />
-        <Milestones />
-        <News />
-      </main>
-    </div>
-  );
+   return (
+      <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+         <main className="flex flex-1 w-full flex-col items-center bg-white dark:bg-black sm:items-start">
+            <Hero src="next.svg" alt="sample" />
+            <OurCompany />
+            <OurMission />
+            <OurBrands />
+            <OurPeople />
+            <Milestones />
+            <News />
+         </main>
+      </div>
+   );
 }
