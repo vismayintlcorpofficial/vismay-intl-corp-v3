@@ -48,7 +48,7 @@ body {
   animation: marquee var(--_animation-duration, 20s)
     var(--_animation-direction, forwards) linear infinite;
 }
-
+@custom-variant hover (&:hover);
 .marquee[data-direction="right"] {
   --_animation-direction: reverse;
 }
