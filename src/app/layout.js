@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
       <body className="min-h-full flex flex-col selection:bg-[#ECF0F8] selection:text-[#06529B]">
         <Navigation />
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
