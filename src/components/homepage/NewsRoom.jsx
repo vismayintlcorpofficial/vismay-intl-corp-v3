@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function NewsRoom() {
   return (
     <section className="min-h-197 mx-auto flex flex-col my-10 justify-center items-center text-white">
-      <div class="grid mx-5 space-y-16">
+      <div className="grid mx-5 space-y-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-2  justify-center items-center">
           <ArticleBlock
             img={News1}
