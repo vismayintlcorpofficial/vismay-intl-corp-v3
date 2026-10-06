@@ -7,9 +7,9 @@ import Link from "next/link";
 
 export default function NewsRoom() {
   return (
-    <section className="min-h-197 mx-auto flex flex-col my-10 justify-center items-center text-white">
+    <section className="min-h-197 mx-auto flex flex-col my-10 justify-center items-center text-white 2xl:px-4 xl:px-48 lg:px-12 md:px-8 px-2">
       <div className="grid mx-5 space-y-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-2  justify-center items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 2xl:grid-cols-4 2xl:gap-4 xl:gap-8 lg:gap-10 gap-6  justify-center items-center">
           <ArticleBlock
             img={News1}
             header="PLATINUM KARAOKE STORE OPENING"
