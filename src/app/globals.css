@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant hover (&:hover);
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -48,7 +50,7 @@ body {
   animation: marquee var(--_animation-duration, 20s)
     var(--_animation-direction, forwards) linear infinite;
 }
-@custom-variant hover (&:hover);
+
 .marquee[data-direction="right"] {
   --_animation-direction: reverse;
 }
@@ -56,5 +58,36 @@ body {
 @keyframes marquee {
   to {
     transform: translate(calc(-50% + -0.42rem));
+  }
+}
+
+.milestone_marquee {
+  width: 100%;
+}
+.milestone_marquee[data-animated="true"] .marquee_inner {
+  width: max-content;
+  flex-wrap: nowrap;
+  animation: marquee_milestone var(--_animation-duration, 20s)
+    var(--_animation-direction, forwards) linear infinite;
+}
+
+.milestone_marquee[data-direction="right"] {
+  --_animation-direction: reverse;
+}
+
+.milestone_marquee:hover {
+  animation-play-state: paused;
+}
+
+@theme {
+  --animate-marquee: marquee 15s linear infinite;
+
+  @keyframes marquee_milestone {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
   }
 }

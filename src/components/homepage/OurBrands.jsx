@@ -10,12 +10,13 @@ export default function OurBrands() {
         <div className="flex justify-center">
           <div className="flex gap-8 items-center h-full">
             <div>
-              <div className="bg-white p-8 rounded-full mb-2">
-                <Link href="#">
+              <div className="bg-white p-4 md:p-6 rounded-full mb-2 relative w-32 h-32 sm:w-40 sm:h-40">
+                <Link href="#" className="relative block w-full h-full">
                   <Image
-                    className="rounded-3xl"
-                    width={134}
+                    className="rounded-3xl object-contain"
+                    fill
                     src={PKLogo}
+                    sizes="(max-width: 640px) 128px, 160px"
                     alt="Platinum Karaoke Logo"
                     loading="eager"
                   />
@@ -24,12 +25,14 @@ export default function OurBrands() {
               <p className="text-center cursor-default">Platinum Karaoke</p>
             </div>
             <div>
-              <div className="bg-white p-8 rounded-full mb-2">
-                <Link href="#">
+              <div className=" bg-white p-4 md:p-6 rounded-full mb-2 relative w-32 h-32 sm:w-40 sm:h-40">
+                <Link href="#" className="relative block w-full h-full">
                   <Image
-                    width={134}
+                    className="rounded-3xl object-contain"
+                    fill
                     src={PKAudioLogo}
-                    alt="PK Audio Logo"
+                    sizes="(max-width: 640px) 128px, 160px"
+                    alt="Platinum Karaoke Logo"
                     loading="eager"
                   />
                 </Link>
