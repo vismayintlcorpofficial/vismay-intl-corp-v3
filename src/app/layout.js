@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${montserrat.variable}  h-full antialiased`}>
       <body className="min-h-full flex flex-col selection:bg-[#ECF0F8] selection:text-[#06529B]">
         <Navigation />
-        {children}
+        <main>{children}</main>
         <Footer />
       </body>
     </html>

@@ -1,4 +1,24 @@
+Yes. In Next.js App Router, SEO is mainly handled through the built-in Metadata API. You don't need to manually add <title> and <meta> tags to every page.
+For your project, I'd set it up like this.
+1. Global SEO in layout.js
+Your structure:
+src/
+├── app/
+│   ├── layout.js
+│   ├── page.js
+│   ├── globals.css
+│   ├── about/
+│   │   └── page.js
+│   └── contact/
+│       └── page.js
+└── components/
+    ├── Navbar.jsx
+    └── Footer.jsx
 
+In layout.js:
+import "./globals.css";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: {
@@ -29,13 +49,66 @@ export const metadata = {
   },
 };
 
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body>
+        <Navbar />
+
+        <main>
+          {children}
+        </main>
+
+        <Footer />
+      </body>
+    </html>
+  );
+}
+
+This gives you default metadata for the entire website.
+2. SEO for the homepage
+Then your page.js can have its own metadata:
 export const metadata = {
   title: "Home",
   description:
     "Welcome to Your Company. Discover our brands, company, missions, and people.",
 };
 
+export default function Home() {
+  return (
+    <>
+      <section>
+        {/* Hero */}
+      </section>
 
+      <section>
+        {/* Our Brands */}
+      </section>
+
+      <section>
+        {/* Our Company */}
+      </section>
+
+      <section>
+        {/* Our Missions */}
+      </section>
+
+      <section>
+        {/* Our People */}
+      </section>
+    </>
+  );
+}
+
+Because we used:
+template: "%s | Your Company"
+
+Next.js will generate:
+Home | Your Company
+
+3. SEO for individual pages
+For example:
+src/app/about/page.js
 
 export const metadata = {
   title: "About Us",
@@ -43,4 +116,102 @@ export const metadata = {
     "Learn more about our company, history, and values.",
 };
 
+export default function About() {
+  return (
+    <section>
+      <h1>About Us</h1>
+    </section>
+  );
+}
 
+The browser title becomes:
+About Us | Your Company
+
+So you don't need to manually write:
+<title>...</title>
+
+4. Add an SEO-friendly favicon
+Next.js has a nice convention for this.
+You can put:
+src/app/
+├── favicon.ico
+├── layout.js
+└── page.js
+
+Next.js will automatically use it.
+You can also have:
+src/app/
+├── icon.png
+├── apple-icon.png
+└── ...
+
+depending on what you want to support.
+5. Add sitemap.xml
+For a real production website, I'd also add a sitemap.
+Create:
+src/app/sitemap.js
+
+export default function sitemap() {
+  return [
+    {
+      url: "https://www.example.com",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://www.example.com/about",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://www.example.com/contact",
+      lastModified: new Date(),
+    },
+  ];
+}
+
+Next.js will expose:
+https://www.example.com/sitemap.xml
+
+6. Add robots.txt
+Create:
+src/app/robots.js
+
+export default function robots() {
+  return {
+    rules: {
+      userAgent: "*",
+      allow: "/",
+    },
+    sitemap: "https://www.example.com/sitemap.xml",
+  };
+}
+
+This gives you:
+/robots.txt
+
+Your overall structure
+I'd eventually have:
+src/
+├── app/
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.js
+│   ├── page.js
+│   ├── sitemap.js
+│   ├── robots.js
+│   │
+│   ├── about/
+│   │   └── page.js
+│   │
+│   └── contact/
+│       └── page.js
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── Footer.jsx
+│   ├── Hero.jsx
+│   ├── OurBrands.jsx
+│   ├── OurCompany.jsx
+│   ├── OurMissions.jsx
+│   └── OurPeople.jsx
+│
+└── ...
