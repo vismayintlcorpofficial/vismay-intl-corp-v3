@@ -25,7 +25,7 @@ export const metadata = {
     locale: "en_PH",
     images: [
       {
-        url: "icon.svg",
+        url: "icon.png",
         width: 400,
         height: 400,
         alt: "Vismay International Corporation",
