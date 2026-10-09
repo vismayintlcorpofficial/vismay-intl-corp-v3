@@ -3,6 +3,42 @@ import "./globals.css";
 
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
+import { title } from "motion/react-client";
+
+export const metadata = {
+  title: {
+    default: "Vismay International Corporation",
+    template: "%s | Vismay International Corporation",
+  },
+
+  description:
+    "A Philippine-based company dedicated to providing quality products and services to customers and businesses. We strive to deliver reliable solutions, excellent customer service, and value through our growing range of products and business offerings.",
+
+  authors: [{ name: "Vismay International Corporation" }],
+  creator: "Vismay International Corporation",
+
+  openGraph: {
+    title: "Vismay International Corporation",
+    description:
+      "A Philippine-based company dedicated to providing quality products and services to customers and businesses. We strive to deliver reliable solutions, excellent customer service, and value through our growing range of products and business offerings.",
+    type: "website",
+    locale: "en_PH",
+    images: [
+      {
+        url: "icon.png",
+        width: 400,
+        height: 400,
+        alt: "Vismay International Corporation",
+      },
+    ],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${montserrat.variable}  h-full antialiased`}>
