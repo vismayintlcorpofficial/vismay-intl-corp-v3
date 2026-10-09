@@ -1,6 +1,8 @@
 import HeroImage from "@/components/layout/HeroImage";
 import ImageProduct from "@/components/ourbrands/image-product";
 import ProductImage from "@/components/ourbrands/product-image";
+import ProductCategory from "@/components/ourbrands/productCategory";
+import Product from "@/components/ourbrands/productCategory";
 
 export const metadata = {
   title: "Our Brands",
@@ -11,8 +13,10 @@ export const metadata = {
 export default function OurBrands() {
   return (
     <div>
-      <HeroImage src="/images/brands/ourbrand.svg" />
-      <div className="m-5">
+      <section>
+        <HeroImage src="/images/brands/ourbrand.svg" />
+      </section>
+      <section className="m-5">
         <ProductImage
           header="Piano 4K"
           paragraph="High-End Home Karaoke System"
@@ -37,7 +41,29 @@ export default function OurBrands() {
           paraImg="/images/brands/pk10.webp"
           curvedImg="/images/brands/pk10bg.svg"
         />
-      </div>
+      </section>
+      <section className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-5 px-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6 my-10">
+        <ProductCategory
+          header="Party Jukebox"
+          src="/images/brands/dk88_plain.png"
+          alt="DK88 Image"
+        />
+        <Product
+          header="Piano Series"
+          src="/images/brands/piano-XL-SD_plain.png"
+          alt="Piano Series"
+        />
+        <ProductCategory
+          header="KS Series"
+          src="/images/brands/ks10-mini-sd_plain.png"
+          alt="KS Series"
+        />
+        <ProductCategory
+          header="Reyna Series"
+          src="/images/brands/reyna-4_plain.png"
+          alt="Reyna Series"
+        />
+      </section>
     </div>
   );
 }
