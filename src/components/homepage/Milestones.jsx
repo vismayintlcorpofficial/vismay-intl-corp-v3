@@ -25,7 +25,7 @@ const milestones = [
     title: "10+ Brand Stores",
   },
 ];
-const Milestones = () => {
+const Milestones = ({ home = true }) => {
   const [isPlaying, setIsPlaying] = useState(true);
   useEffect(() => {
     const marquees = document.querySelectorAll(".milestone_marquee");
@@ -104,9 +104,14 @@ const Milestones = () => {
           </div>
         </div>
         <div className="max-w-screen-2xl lg:mx-auto w-full flex justify-between px-12">
-          <Link href="#" className="py-2 px-8 border border-white rounded-3xl">
-            About us
-          </Link>
+          {home && (
+            <Link
+              href="/who-we-are"
+              className="py-2 px-8 border border-white rounded-3xl"
+            >
+              About us
+            </Link>
+          )}
           {/* Control Button */}
           <button
             onClick={() => setIsPlaying((prev) => !prev)}
