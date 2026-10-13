@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function WhoWeAre() {
   return (
-    <div>
+    <div className="bg-white">
       <HeroImage
         src="/images/whoWeAre/whoWeAreBanner.webp"
         alt="Who We Are Banner"

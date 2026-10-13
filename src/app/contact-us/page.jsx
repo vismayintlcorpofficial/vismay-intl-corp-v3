@@ -8,7 +8,7 @@ export const metadata = {
 
 const ContactUs = () => {
   return (
-    <section className="lg:py-16 py-32">
+    <section className="lg:py-16 py-32 bg-white text-black">
       <div>
         <div className="xl:max-w-7xl lg:max-w-4xl md:max-w-2xl max-w-sm mx-auto">
           <h1 className="text-5xl text-center font-semibold">Inquiry</h1>
