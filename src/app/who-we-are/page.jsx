@@ -11,8 +11,9 @@ export default function WhoWeAre() {
         alt="Who We Are Banner"
       />
       <AboutUs />
-      <Milestones />
+      <Milestones home={false} />
       <Image
+        id="our-mission"
         src="/images/whoWeAre/ourMission.webp"
         alt="ads"
         width={0}

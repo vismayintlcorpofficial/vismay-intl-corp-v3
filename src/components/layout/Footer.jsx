@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
         <div className="flex lg:flex-row flex-col lg:justify-between lg:items-center md:border-y-2 border-0 py-8 md:my-10 xl:pr-16 lg:pr-0  md:order-1 order-0">
           <div className="xl:flex-3 lg:flex-2 md:border-0 border-b-2 ">
-            <div className="md:mx-0 md:mb-8 lg:mr-12 mx-12">
+            <div className="md:mx-0 md:mb-8 lg:mr-12 mx-12 cursor-default">
               <h3 className="md:text-2xl text-base md:font-regular font-bold tracking-wider">
                 Vismay International Corp.
               </h3>
@@ -46,7 +46,7 @@ const Footer = () => {
                 <Link href="#">
                   <p className="font-light">Lifestyle</p>
                 </Link>
-                <Link href="#">
+                <Link href="/contact-us">
                   <p className="font-light">Contact Us</p>
                 </Link>
               </div>
@@ -54,10 +54,10 @@ const Footer = () => {
             <div className="flex-1 w-full md:border-0 border-b-2">
               <div className="  space-y-1.5 md:py-0 py-6 md:mx-0 mx-12">
                 <h3 className="text-[#00C8FF] font-semibold pb-4 ">Careers</h3>
-                <Link href="#">
+                <Link href="/who-we-are">
                   <p className="font-light">Company Info</p>
                 </Link>
-                <Link href="#">
+                <Link href="/who-we-are/#our-mission">
                   <p className="font-light">Our Mission</p>
                 </Link>
                 <Link href="#">
@@ -70,7 +70,7 @@ const Footer = () => {
                 <h3 className="text-[#00C8FF] font-semibold pb-4 ">
                   Our Brands
                 </h3>
-                <Link href="#">
+                <Link href="/privacy-policy">
                   <p className="font-light">Privacy Policy</p>
                 </Link>
                 <Link href="#">
@@ -84,13 +84,13 @@ const Footer = () => {
             <div>
               <div className="flex">
                 <Link
-                  href="#"
+                  href="/privacy-policy"
                   className="md:py-0 py-6 md:mx-0 mx-12  md:block hidden shrink-0"
                 >
                   <Image
                     src={DPOLogo}
                     alt="DPO/DPS data privacy logo"
-                    className="w-auto h-auto "
+                    className="w-auto h-auto"
                   />
                 </Link>
               </div>
