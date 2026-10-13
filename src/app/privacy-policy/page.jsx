@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function PrivacyPolicy() {
   return (
-    <div className=" border-t border-[#07549C10]">
+    <div className=" border-t border-[#07549C10] bg-white">
       <section className="mx-auto w-full max-w-5xl px-5 py-8 text-base leading-relaxed text-gray-700 md:px-8 mt-30 lg:mt-0 mb-10">
         <h2 className="text-2xl lg:text-4xl pb-10 text-center font-bold text-[#07549C] ">
           DATA PRIVACY STATEMENT
