@@ -6,23 +6,20 @@ import Link from "next/link";
 
 const slides = [
   {
-    title: "Vismay International Corp.",
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique temporibus tempore nobis laboriosam hic blanditiis quam adipisci quis magni minus fuga optio nemo obcaecati aliquam sed, dolor quaerat et ipsam?",
+    title: "Vismay International Corporation",
+    description: "",
     image: "/videos/hero/MAIN_BANNER_1.webm",
     link: "#",
   },
   {
-    title: "Vismay International",
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique temporibus tempore nobis laboriosam hic blanditiis quam adipisci quis magni minus fuga optio nemo obcaecati aliquam sed, dolor quaerat et ipsam?",
+    title: "",
+    description: "",
     image: "/videos/hero/MAIN_BANNER_2.webm",
     link: "#",
   },
   {
-    title: "Vismay",
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique temporibus tempore nobis laboriosam hic blanditiis quam adipisci quis magni minus fuga optio nemo obcaecati aliquam sed, dolor quaerat et ipsam?",
+    title: "",
+    description: "",
     image: "/videos/hero/MAIN_BANNER_3.webm",
     link: "#",
   },
@@ -222,26 +219,13 @@ export default function HeroBanner() {
                 duration: 0.5,
               }}
             >
-              <h3 className="text-3xl leading-tight font-bold sm:text-4xl lg:text-5xl">
+              <h3 className="text-2xl leading-tight font-bold sm:text-3xl">
                 {currentSlide.title}
               </h3>
 
-              <p className="mt-4 max-w-full text-sm leading-relaxed sm:max-w-120 sm:text-base lg:text-lg">
+              <p className="mt-4 max-w-full text-sm leading-relaxed sm:max-w-120 sm:text-base">
                 {currentSlide.description}
               </p>
-
-              <button
-                type="button"
-                onClick={(event) => {
-                  event.preventDefault();
-                  event.stopPropagation();
-
-                  toggleVideo();
-                }}
-                className="mt-6 flex h-10 w-10 items-center justify-center rounded-full border  border-white/80 text-sm transition hover:bg-white hover:text-[#06529B]"
-              >
-                {isPaused ? "▷" : "Ⅱ"}
-              </button>
             </motion.div>
           </Link>
         </AnimatePresence>
@@ -262,11 +246,11 @@ export default function HeroBanner() {
               aria-current={isActive ? "step" : undefined}
             >
               {/* Indicator */}
-              <div className="flex items-center justify-between">
+              {/* <div className="flex items-center justify-between">
                 <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-white/80 text-xs sm:h-8 sm:w-8">
                   {isActive && !isPaused ? "Ⅱ" : "▷"}
                 </span>
-              </div>
+              </div> */}
 
               {/* Progress */}
               <div className="relative mt-3 h-1 w-full overflow-hidden bg-black/20">
