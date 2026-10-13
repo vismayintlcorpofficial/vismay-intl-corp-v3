@@ -81,6 +81,7 @@ const ContactUsForm = () => {
               id="fullname"
               value={form.fullname}
               onChange={handleChange}
+              placeholder="Enter Full Name. ex: Juan M. Luna"
               required
             />
           </div>
@@ -95,6 +96,7 @@ const ContactUsForm = () => {
               id="email"
               value={form.email}
               onChange={handleChange}
+              placeholder="Enter Email Address"
               required
             />
           </div>
@@ -109,6 +111,7 @@ const ContactUsForm = () => {
               id="phone"
               value={form.phone}
               onChange={handleChange}
+              placeholder="Enter Mobile Number"
               required
             />
           </div>
@@ -123,6 +126,7 @@ const ContactUsForm = () => {
               id="company"
               value={form.company}
               onChange={handleChange}
+              placeholder="Enter your company"
               required
             />
           </div>
@@ -137,6 +141,7 @@ const ContactUsForm = () => {
               id="website"
               value={form.website}
               onChange={handleChange}
+              placeholder="Enter website. ex: platinumkaraoke.com"
               required
             />
           </div>
@@ -152,6 +157,7 @@ const ContactUsForm = () => {
               value={form.inquiry}
               onChange={handleChange}
               rows={8}
+              placeholder="Compose your inquiry here"
               required
             />
           </div>
