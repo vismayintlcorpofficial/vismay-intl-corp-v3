@@ -19,7 +19,7 @@ export default function OurPeople() {
       </div>
       {/*  */}
       <div className="w-full flex flex-col justify-center items-center md:py-12 md:px-10 py-12 px-5">
-        <div className="max-w-312.5 dark:bg-black w-full flex md:flex-row flex-col md:items-center ">
+        <div className="max-w-312.5 w-full flex md:flex-row flex-col md:items-center ">
           {/* absolute left-0 top-1/2 translate-x-0 -translate-y-1/2 */}
           <div className="lg:-mr-3 md:-mr-10 space-y-3 flex flex-col justify-center items-center lg:p-12 md:p-5 p-8 text-base font-bold bg-[#06529B] border-4 border-[#B1D9FF] rounded-2xl z-10 md:order-0 order-1">
             <p>
