@@ -238,20 +238,13 @@ export default function HeroBanner() {
 
           return (
             <button
-              key={slide.title}
+              key={slide.image}
               type="button"
               className="min-w-0 flex-1 cursor-pointer border-0 bg-transparent p-0 text-left text-white"
               onClick={() => selectSlide(index)}
               aria-label={`Show ${slide.title}`}
               aria-current={isActive ? "step" : undefined}
             >
-              {/* Indicator */}
-              {/* <div className="flex items-center justify-between">
-                <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-white/80 text-xs sm:h-8 sm:w-8">
-                  {isActive && !isPaused ? "Ⅱ" : "▷"}
-                </span>
-              </div> */}
-
               {/* Progress */}
               <div className="relative mt-3 h-1 w-full overflow-hidden bg-black/20">
                 <motion.div
