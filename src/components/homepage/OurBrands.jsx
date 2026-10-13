@@ -11,7 +11,10 @@ export default function OurBrands() {
           <div className="flex gap-8 items-center h-full">
             <div>
               <div className="bg-white p-4 md:p-6 rounded-full mb-2 relative w-32 h-32 sm:w-40 sm:h-40">
-                <Link href="#" className="relative block w-full h-full">
+                <Link
+                  href="https://platinumkaraoke.com"
+                  className="relative block w-full h-full"
+                >
                   <Image
                     className="rounded-3xl object-contain"
                     fill
@@ -26,7 +29,10 @@ export default function OurBrands() {
             </div>
             <div>
               <div className=" bg-white p-4 md:p-6 rounded-full mb-2 relative w-32 h-32 sm:w-40 sm:h-40">
-                <Link href="#" className="relative block w-full h-full">
+                <Link
+                  href="https://platinumkaraoke.com/collections/pk-audio"
+                  className="relative block w-full h-full"
+                >
                   <Image
                     className="rounded-3xl object-contain"
                     fill
@@ -41,7 +47,10 @@ export default function OurBrands() {
             </div>
           </div>
         </div>
-        <Link href="#" className="border border-white py-2 px-8 rounded-3xl">
+        <Link
+          href="ourbrands"
+          className="border border-white py-2 px-8 rounded-3xl"
+        >
           View more
         </Link>
       </div>

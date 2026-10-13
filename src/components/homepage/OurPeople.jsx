@@ -14,8 +14,7 @@ export default function OurPeople() {
           className="w-full h-full"
         />
         <p className="absolute md:left-10 lg:left-50 top-2/3 text-lg  md:text-4xl xl:text-6xl w-full px-10 md:w-3/4 lg:w-1/2 font-bold">
-          Lorem ipsum dolor sit amet, adipiscing elit. Phasellus con libero mi,
-          at tincidunt odio mo
+          Today and Beyond. <span>A brighter tomorrow</span>
         </p>
       </div>
       {/*  */}
