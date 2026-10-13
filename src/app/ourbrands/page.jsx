@@ -14,35 +14,35 @@ export default function OurBrands() {
   return (
     <div className="bg-white">
       <section>
-        <HeroImage src="/images/brands/ourbrand.svg" />
+        <HeroImage src="/images/brands/ourbrand.webp" />
       </section>
       <section className="m-5">
         <ProductImage
           header="Piano 4K"
           paragraph="High-End Home Karaoke System"
           paraImg="/images/brands/piano4k.webp"
-          curvedImg="/images/brands/piano4k.svg"
+          curvedImg="/images/brands/piano4kbg.webp"
           link="https://platinumkaraoke.com/collections/piano-4k"
         />
         <ImageProduct
           header="Alpha 2"
           paragraph="High-End Home Karaoke system"
           paraImg="/images/brands/alpha2.webp"
-          curvedImg="/images/brands/alpha2bg.svg"
+          curvedImg="/images/brands/alpha2bg.webp"
           link="https://platinumkaraoke.com/products/alpha-2-high-end-home-karaoke-system"
         />
         <ProductImage
           header="Cello 2"
           paragraph="UHF Wireless Microphone Karaoke Player"
           paraImg="/images/brands/cello2.webp"
-          curvedImg="/images/brands/cello2bg.svg"
+          curvedImg="/images/brands/cello2bg.webp"
           link="https://platinumkaraoke.com/products/cello-2-uhf-wireless-microphone-karaoke-player"
         />
         <ImageProduct
           header="PK10"
           paragraph="All-in-one party speaker with UHF wireless keypad microphone"
           paraImg="/images/brands/pk10.webp"
-          curvedImg="/images/brands/pk10bg.svg"
+          curvedImg="/images/brands/pk10bg.webp"
           link="https://platinumkaraoke.com/products/pk-10-trolley-speaker"
         />
       </section>
