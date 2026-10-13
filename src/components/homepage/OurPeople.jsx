@@ -7,7 +7,7 @@ export default function OurPeople() {
       {/* Banner */}
       <div className="relative pt-12">
         <Image
-          src="/images/ourPeople/ourPeople1.svg"
+          src="/images/ourPeople/ourPeople1.webp"
           alt="OurPoeple"
           width={0}
           height={0}
@@ -42,7 +42,7 @@ export default function OurPeople() {
           <div className="relative md:min-h-157.75 xl:min-w-157.75  lg:min-w-120 min-h-90 min-w-90 md:ml-auto ml-0 md:order-1 order-0 ">
             <Image
               className="object-cover rounded-xl  "
-              src="/images/ourPeople/ourPeople2.svg"
+              src="/images/ourPeople/ourPeople2.webp"
               alt="Vismay Employee"
               fill
             />
