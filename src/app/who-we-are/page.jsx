@@ -17,21 +17,40 @@ export default function WhoWeAre() {
       />
       <AboutUs />
       <Milestones home={false} />
-      <Image
-        id="our-mission"
-        src="/images/whoWeAre/ourMission.webp"
-        alt="ads"
-        width={0}
-        height={0}
-        className="w-full"
-      />
-      <Image
-        src="/images/whoWeAre/ourVision.webp"
-        alt="ads"
-        width={0}
-        height={0}
-        className="w-full"
-      />
+      <div className="lg:hidden">
+        <Image
+          id="our-mission"
+          src="/images/whoWeAre/ourMissionMobile.webp"
+          alt="ads"
+          width={0}
+          height={0}
+          className="w-full"
+        />
+        <Image
+          src="/images/whoWeAre/ourVisionMobile.webp"
+          alt="ads"
+          width={0}
+          height={0}
+          className="w-full"
+        />
+      </div>
+      <div className="hidden lg:flex flex-col">
+        <Image
+          id="our-mission"
+          src="/images/whoWeAre/ourMission.webp"
+          alt="ads"
+          width={0}
+          height={0}
+          className="w-full"
+        />
+        <Image
+          src="/images/whoWeAre/ourVision.webp"
+          alt="ads"
+          width={0}
+          height={0}
+          className="w-full"
+        />
+      </div>
     </div>
   );
 }
