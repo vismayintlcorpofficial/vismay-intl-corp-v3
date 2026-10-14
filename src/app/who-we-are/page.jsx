@@ -9,6 +9,20 @@ export const metadata = {
 };
 
 export default function WhoWeAre() {
+  const images = [
+    {
+      id: "our-mission",
+      mobile: "/images/whoWeAre/ourMissionMobile.webp",
+      desktop: "/images/whoWeAre/ourMission.webp",
+      alt: "Our Mission",
+    },
+    {
+      id: "our-vision",
+      mobile: "/images/whoWeAre/ourVisionMobile.webp",
+      desktop: "/images/whoWeAre/ourVision.webp",
+      alt: "Our Vision",
+    },
+  ];
   return (
     <div className="bg-white">
       <HeroImage
@@ -18,38 +32,28 @@ export default function WhoWeAre() {
       <AboutUs />
       <Milestones home={false} />
       <div className="lg:hidden">
-        <Image
-          id="our-mission"
-          src="/images/whoWeAre/ourMissionMobile.webp"
-          alt="ads"
-          width={0}
-          height={0}
-          className="w-full"
-        />
-        <Image
-          src="/images/whoWeAre/ourVisionMobile.webp"
-          alt="ads"
-          width={0}
-          height={0}
-          className="w-full"
-        />
+        {images.map(image => (
+          <Image
+            key={image.id}
+            src={image.mobile}
+            alt={image.alt}
+            width={0}
+            height={0}
+            className="w-full"
+          />
+        ))}
       </div>
       <div className="hidden lg:flex flex-col">
-        <Image
-          id="our-mission"
-          src="/images/whoWeAre/ourMission.webp"
-          alt="ads"
-          width={0}
-          height={0}
-          className="w-full"
-        />
-        <Image
-          src="/images/whoWeAre/ourVision.webp"
-          alt="ads"
-          width={0}
-          height={0}
-          className="w-full"
-        />
+        {images.map(image => (
+          <Image
+            key={image.id}
+            src={image.desktop}
+            alt={image.alt}
+            width={0}
+            height={0}
+            className="w-full"
+          />
+        ))}
       </div>
     </div>
   );
