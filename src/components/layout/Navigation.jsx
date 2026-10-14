@@ -13,10 +13,10 @@ export default function Header() {
   };
   const navDesktopTop = (
     <div className="lg:flex justify-end gap-27 bg-[#06529B] pb-1 pt-3 px-35 hidden ">
-      <Link className="text-lg font-semibold text-white" href="ourbrands">
+      <Link className="text-lg font-semibold text-white" href="/ourbrands">
         Our Brands
       </Link>
-      <Link className="text-lg font-semibold text-white" href="contact-us">
+      <Link className="text-lg font-semibold text-white" href="/contact-us">
         Contact Us
       </Link>
     </div>
