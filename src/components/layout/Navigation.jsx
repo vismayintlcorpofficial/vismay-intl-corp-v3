@@ -59,19 +59,35 @@ export default function Header() {
       }`}
     >
       <div className="flex flex-col gap-10 text-white px-4 pt-12">
-        <Link href="/who-we-are" className="text-xl font-bold">
+        <Link
+          href="/who-we-are"
+          className="text-xl font-bold"
+          onClick={handleCollapse}
+        >
           Who We Are
         </Link>
 
-        <Link href="/careers" className="text-xl font-bold">
+        <Link
+          href="/careers"
+          className="text-xl font-bold"
+          onClick={handleCollapse}
+        >
           Careers
         </Link>
 
-        <Link href="/ourbrands" className="text-xl font-bold">
+        <Link
+          href="/ourbrands"
+          className="text-xl font-bold"
+          onClick={handleCollapse}
+        >
           Our Brands
         </Link>
 
-        <Link href="/contact-us" className="text-xl font-bold">
+        <Link
+          href="/contact-us"
+          className="text-xl font-bold"
+          onClick={handleCollapse}
+        >
           Contact Us
         </Link>
       </div>
