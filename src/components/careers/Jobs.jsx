@@ -4,7 +4,7 @@ export default function Jobs() {
   return (
     <section className="flex flex-col relative text-white">
       {/* Text */}
-      <div className="-mt-25 lg:mt-0 px-10 pt-20 lg:pt-0 order-1 lg:order-0 relative z-10 bg-[#06529B] 2xl:h-270 xl:h-250 lg:h-220 lg:w-50/110 rounded-tr-[100px] p-3 md:px-15 2xl:px-30 justify-center flex flex-col">
+      <div className="-mt-25 lg:mt-0 px-10 pt-20 lg:pt-0 order-1 lg:order-0 relative z-10 bg-[#06529B] 2xl:h-270 xl:h-250 lg:h-220 lg:w-50/110 rounded-tr-[100px] lg:rounded-tr-[150px] p-3 md:px-15 2xl:px-30 justify-center flex flex-col">
         <h2 className="2xl:text-6xl text-4xl">Careers with purpose</h2>
         <p className="2xl:text-2xl text-xl">
           <br />

@@ -17,7 +17,7 @@ const milestones = [
   {
     image: products,
     description: "A rich history in the Philippines",
-    title: "80+ Iconic Product",
+    title: "80+ Iconic Products",
   },
   {
     image: stores,

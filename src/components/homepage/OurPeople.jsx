@@ -13,14 +13,13 @@ export default function OurPeople() {
           height={0}
           className="w-full h-full"
         />
-        <p className="absolute md:left-10 lg:left-50 top-2/3 text-lg  md:text-4xl xl:text-6xl w-full px-10 md:w-3/4 lg:w-1/2 font-bold">
+        {/* <p className="absolute md:left-10 lg:left-50 top-2/3 text-lg  md:text-4xl xl:text-6xl w-full px-10 md:w-3/4 lg:w-1/2 font-bold">
           Today and Beyond. <span>A brighter tomorrow</span>
-        </p>
+        </p> */}
       </div>
-      {/*  */}
-      <div className="w-full flex flex-col justify-center items-center md:py-12 md:px-10 py-12 px-5">
+
+      {/* <div className="w-full flex flex-col justify-center items-center md:py-12 md:px-10 py-12 px-5">
         <div className="max-w-312.5 w-full flex md:flex-row flex-col md:items-center ">
-          {/* absolute left-0 top-1/2 translate-x-0 -translate-y-1/2 */}
           <div className="lg:-mr-3 md:-mr-10 space-y-3 flex flex-col justify-center items-center lg:p-12 md:p-5 p-8 text-base font-bold bg-[#06529B] border-4 border-[#B1D9FF] rounded-2xl z-10 md:order-0 order-1">
             <p>
               We pursue innovation, transforming ideas into solutions with
@@ -48,7 +47,7 @@ export default function OurPeople() {
             />
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

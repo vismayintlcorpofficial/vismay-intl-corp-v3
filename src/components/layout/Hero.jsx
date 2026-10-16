@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const slides = [
   {
-    title: "Vismay International Corporation",
+    title: "",
     description: "",
     image: "/videos/hero/MAIN_BANNER_1.webm",
     link: "#",
@@ -93,7 +93,7 @@ export default function HeroBanner() {
         remainingTime.current = SLIDE_DURATION;
         startTime.current = null;
 
-        setActive((prev) => (prev + 1) % slides.length);
+        setActive(prev => (prev + 1) % slides.length);
         setProgress(0);
       }, 150);
     }, initialRemaining);
@@ -138,7 +138,7 @@ export default function HeroBanner() {
     setIsPaused(false);
   };
 
-  const selectSlide = (index) => {
+  const selectSlide = index => {
     clearTimers();
 
     remainingTime.current = SLIDE_DURATION;
