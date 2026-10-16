@@ -3,9 +3,11 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   // The live site serves every page with a trailing slash (/who-we-are/).
   // Keeping it means every existing link, bookmark and search result still resolves.
+  output: "export",
   trailingSlash: true,
   poweredByHeader: false,
   images: {
+    unoptimized: true,
     formats: ["image/avif", "image/webp"],
     qualities: [70, 75, 85],
   },

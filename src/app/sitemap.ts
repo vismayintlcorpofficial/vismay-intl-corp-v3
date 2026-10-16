@@ -1,8 +1,14 @@
 import type { MetadataRoute } from "next";
 import { site } from "@/content/site";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const pages: { path: string; priority: number; changeFrequency: "monthly" | "weekly" | "yearly" }[] = [
+  const pages: {
+    path: string;
+    priority: number;
+    changeFrequency: "monthly" | "weekly" | "yearly";
+  }[] = [
     { path: "/", priority: 1, changeFrequency: "monthly" },
     { path: "/who-we-are/", priority: 0.8, changeFrequency: "yearly" },
     { path: "/ourbrands/", priority: 0.8, changeFrequency: "monthly" },
@@ -10,7 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/contact-us/", priority: 0.7, changeFrequency: "yearly" },
     { path: "/privacy-policy/", priority: 0.3, changeFrequency: "yearly" },
   ];
-  return pages.map((p) => ({
+  return pages.map(p => ({
     url: `${site.url}${p.path}`,
     lastModified: new Date(),
     changeFrequency: p.changeFrequency,
