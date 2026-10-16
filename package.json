@@ -1,0 +1,31 @@
+{
+  "name": "vismay-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Corporate website for Vismay International Corporation",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "assets:pull": "node scripts/pull-assets.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^1.58.0",
+    "motion": "^14.3.0",
+    "next": "^16.4.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}
