@@ -14,7 +14,11 @@ export default function OurBrands() {
   return (
     <div className="bg-white">
       <section>
-        <HeroImage src="/images/brands/ourbrand.webp" />
+        <HeroImage
+          src="/images/brands/ourbrand.webp"
+          title="EXPERIENCE REAL 
+          KARAOKE"
+        />
       </section>
       <section className="m-5">
         <ProductImage

@@ -28,6 +28,8 @@ export default function WhoWeAre() {
       <HeroImage
         src="/images/whoWeAre/whoWeAreBanner.webp"
         alt="Who We Are Banner"
+        title="Who We Are"
+        description="Discover the story, passion, and purpose behind Vismay International Corporation."
       />
       <AboutUs />
       <Milestones home={false} />

@@ -12,17 +12,17 @@ const milestones = [
   {
     image: employees,
     description: "A diverse workforce",
-    title: "900+ Employees",
+    title: "950+ Employees",
   },
   {
     image: products,
     description: "A rich history in the Philippines",
-    title: "50+ Iconic Product",
+    title: "80+ Iconic Product",
   },
   {
     image: stores,
     description: "A diverse store",
-    title: "10+ Brand Stores",
+    title: "12+ Brand Stores",
   },
 ];
 const Milestones = ({ home = true }) => {
@@ -31,7 +31,7 @@ const Milestones = ({ home = true }) => {
     const marquees = document.querySelectorAll(".milestone_marquee");
 
     if (!window.matchMedia("(prefers-reduced-motion: reduce) ").matches) {
-      marquees.forEach((marquee) => {
+      marquees.forEach(marquee => {
         marquee.setAttribute("data-animated", "true");
       });
     }
@@ -51,7 +51,7 @@ const Milestones = ({ home = true }) => {
               animationPlayState: isPlaying ? "running" : "paused",
             }}
           >
-            {milestones.map((milestone) => {
+            {milestones.map(milestone => {
               return (
                 <div
                   key={`orig-${milestone.title}`}
@@ -76,7 +76,7 @@ const Milestones = ({ home = true }) => {
                 </div>
               );
             })}
-            {milestones.map((milestone) => {
+            {milestones.map(milestone => {
               return (
                 <div
                   key={`dup-${milestone.title}`}
@@ -114,7 +114,7 @@ const Milestones = ({ home = true }) => {
           )}
           {/* Control Button */}
           <button
-            onClick={() => setIsPlaying((prev) => !prev)}
+            onClick={() => setIsPlaying(prev => !prev)}
             className=" text-white rounded-md font-medium transition-colors cursor-pointer"
           >
             {isPlaying ? (

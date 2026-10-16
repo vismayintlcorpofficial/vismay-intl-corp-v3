@@ -9,14 +9,14 @@ export default function Header() {
   const [active, setActive] = useState(false);
 
   const handleCollapse = () => {
-    setActive((prev) => !prev);
+    setActive(prev => !prev);
   };
   const navDesktopTop = (
     <div className="lg:flex justify-end gap-27 bg-[#06529B] pb-1 pt-3 px-35 hidden ">
-      <Link className="text-lg font-semibold text-white" href="/ourbrands">
+      <Link className="text-[14px] font-semibold text-white" href="/ourbrands">
         Our Brands
       </Link>
-      <Link className="text-lg font-semibold text-white" href="/contact-us">
+      <Link className="text-[14px] font-semibold text-white" href="/contact-us">
         Contact Us
       </Link>
     </div>
@@ -28,8 +28,8 @@ export default function Header() {
           loading="eager"
           src="/vismayLogo.svg"
           alt="Vismay Logo"
-          width={104}
-          height={122}
+          width={47}
+          height={55}
         />
       </Link>
       <div className="flex col gap-19 items-center">
@@ -38,14 +38,17 @@ export default function Header() {
             loading="eager"
             src="/homeIcon.svg"
             alt="Vismay Logo"
-            width={46}
-            height={42}
+            width={25}
+            height={23}
           />
         </Link>
-        <Link href="/who-we-are" className="text-xl font-bold text-[#06529B]">
+        <Link
+          href="/who-we-are"
+          className="text-[16px] font-bold text-[#06529B]"
+        >
           WHO WE ARE
         </Link>
-        <Link href="/careers" className="text-xl font-bold text-[#06529B]">
+        <Link href="/careers" className="text-[16px] font-bold text-[#06529B]">
           CAREERS
         </Link>
       </div>
@@ -54,7 +57,7 @@ export default function Header() {
 
   const navMobile = (
     <div
-      className={`lg:hidden fixed left-0 top-23.5 w-full h-full bg-[#06529B] z-40 px-4 transition-transform duration-300 ease-in-out ${
+      className={`lg:hidden fixed left-0 top-15.5 w-full h-full bg-[#06529B] z-40 px-4 transition-transform duration-300 ease-in-out ${
         active ? "translate-y-0" : "-translate-y-full pointer-events-none"
       }`}
     >
@@ -98,14 +101,14 @@ export default function Header() {
       {navDesktopTop}
       {navDesktop}
       <div className="lg:hidden flex justify-between w-full pr-12 bg-[#06529B] items-center  z-50 fixed top-0">
-        <div className="bg-white px-8 ">
+        <div className="bg-white px-8 py-1 ">
           <Link href="/">
             <Image
               loading="eager"
-              src="vismayLogo.svg"
+              src="/vismayLogo.svg"
               alt="Vismay Logo"
-              width={80}
-              height={80}
+              width={54}
+              height={54}
             />
           </Link>
         </div>

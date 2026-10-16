@@ -10,7 +10,11 @@ export const metadata = {
 export default function Careers() {
   return (
     <div>
-      <HeroImage src={"/images/careers/careers.svg"} />
+      <HeroImage
+        src={"/images/careers/careers.svg"}
+        title="Careers"
+        description="Build your career with Vismay and be part of a team driven by  passion for creating meaningful experiences."
+      />
       <Jobs />
     </div>
   );
